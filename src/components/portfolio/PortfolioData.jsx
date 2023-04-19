@@ -33,19 +33,19 @@ export const data = [
         title: "Sample title",
         github: '/',
         demo: '/'
-    },
-    {
-        id: 5,
-        image: IMG5,
-        title: "Sample title",
-        github: '/',
-        demo: '/'
-    },
-    {
-        id: 6,
-        image: IMG6,
-        title: "Sample title",
-        github: '/',
-        demo: '/'
     }
+    // {
+    //     id: 5,
+    //     image: IMG5,
+    //     title: "Sample title",
+    //     github: '/',
+    //     demo: '/'
+    // },
+    // {
+    //     id: 6,
+    //     image: IMG6,
+    //     title: "Sample title",
+    //     github: '/',
+    //     demo: '/'
+    // }
 ]

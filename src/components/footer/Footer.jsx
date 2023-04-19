@@ -5,7 +5,7 @@ import './footer.css'
 function Footer() {
   return (
     <footer id='footer'>
-      <a href="#" className='footer_logo'>Nilesh</a>
+      <a href="#" className='footer_logo'>Nilesh Chopra</a>
       <ul className='permalinks'>
         <li> <a href='#'> Home </a> </li>
         <li> <a href='#about'> About </a> </li>
@@ -15,12 +15,12 @@ function Footer() {
         <li> <a href='#contact'> Contact </a> </li>
       </ul>
       <div className="footer_socials">
-        <a href="https://facebook.com"><AiOutlineFacebook/></a>
-        <a href="https://instagram.com"><AiOutlineInstagram/></a>
+        <a href="https://www.facebook.com/profile.php?id=100010296606693"><AiOutlineFacebook/></a>
+        <a href="https://www.instagram.com/ash_paper/"><AiOutlineInstagram/></a>
         <a href="https://twitter.com"><AiOutlineTwitter/></a>
       </div>
       <div className="footer_copyright">
-        <small>&copy; Nilesh. All rights researved.</small>
+        <small>&copy; Nilesh Chopra. All rights researved.</small>
       </div>
     </footer>
   )

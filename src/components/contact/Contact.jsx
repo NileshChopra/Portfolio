@@ -26,22 +26,22 @@ const Contact = () => {
           <article className='contact_option'>
             <AiOutlineMail className='contact_option-icon'/>
             <h4>Email</h4>
-            <h5>Someone@gmail.com</h5>
-            <a href="mailto:someone@gmail.com" target='_blank'>Send a message</a>
+            <h5>NileshChopra.18@gmail.com</h5>
+            <a href="mailto:nileshchopra.18@gmail.com" target='_blank'>Send an Email</a>
           </article>
 
           <article className='contact_option' target='_blank'>
             <RiMessengerLine className='contact_option-icon'/>
             <h4>Messenger</h4>
             <h5>NileshChopra</h5>
-            <a href="https://m.me/profile">Send a message</a>
+            <a href="https://m.me/id=100010296606693">Send a message</a>
           </article>
 
           <article className='contact_option' target='_blank'>
             <AiOutlineWhatsApp className='contact_option-icon'/>
             <h4>Whatsapp</h4>
-            <h5>+0996347643</h5>
-            <a href="https://api+whatsapp.com/send?phone++9173767363">Send a message</a>
+            <h5>+91 8920279464</h5>
+            <a href="https://wa.me/+918920279464">Send a message</a>
           </article>
 
         </div>
