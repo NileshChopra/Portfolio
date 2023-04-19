@@ -31,10 +31,10 @@ function Services() {
               <AiOutlineCheckCircle className='service_list-icon'/>
               <p>Accessibility design</p>
             </li>
-            <li>
+            {/* <li>
               <AiOutlineCheckCircle className='service_list-icon'/>
               <p>Collaboration</p>
-            </li>
+            </li> */}
           </ul>
         </article>
 
