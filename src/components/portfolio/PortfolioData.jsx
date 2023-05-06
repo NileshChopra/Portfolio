@@ -21,8 +21,8 @@ export const data = [
     {
         id: 3,
         image: IMG3,
-        title: "Food Website - to be added",
-        github: '/',
+        title: "Food Website - to be deployed",
+        github: 'https://github.com/NileshChopra/foodapp',
         demo: '/'
     }
 ]
