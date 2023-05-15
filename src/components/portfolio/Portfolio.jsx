@@ -12,16 +12,15 @@ function Portfolio() {
           data.map(({ id, image, title, github, demo }) => {
             return (
               <article key={id} className="portfolio_item">
-                
+
                 <div className="portfolio_item-image">
                   <img src={image} alt={title} />
                 </div>
 
                 <h3>{title}</h3>
-
                 <div className="portfolio_item-cta">
                   <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>LiveDemo</a>
+                  <a href={demo} className='btn btn-primary' target="_blank" style={{ display: !demo ? "none" : "" }} >LiveDemo</a>
                 </div>
 
               </article>
@@ -29,7 +28,7 @@ function Portfolio() {
           })
         }
       </div>
-    </section>
+    </section >
   )
 }
 export default Portfolio;
