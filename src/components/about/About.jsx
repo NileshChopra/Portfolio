@@ -3,8 +3,8 @@ import './about.css'
 import '../../index.css'
 import ME from '../../assets/me-about.jpg'
 import { BsAward } from 'react-icons/bs'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
+import { FiUsers } from 'react-icons/fi'
+import { VscFolderLibrary } from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -34,7 +34,7 @@ const About = () => {
             <article className='about_card'>
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>2 projets completed</small>
+              <small>4 projets completed</small>
             </article>
 
           </div>
